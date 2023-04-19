@@ -1,8 +1,6 @@
 .conteudo{
-    /* background-color: rgba(151, 64, 64, 0.3); */
     width: 20rem;
     height: 20rem;
-    /* text-align: center; */
     font-size: larger;
 }
 .conteudo input{
@@ -13,7 +11,6 @@
     border-bottom: 2px solid black;
     height: 50px;
     background: none;
-    /* background:rgba(1, 20, 21, 0.815); */
     margin-bottom: 30px;
     font-size: 18px; 
 }
