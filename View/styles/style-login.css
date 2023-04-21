@@ -36,3 +36,20 @@
     margin-bottom: 5px;
     cursor: pointer;
 }
+.divBtn #login:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border: 1px solid black;
+    text-decoration: underline;
+}
+.divBtn #register-page:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    border: 1px solid black;
+    text-decoration: underline
+}
+.divBtn p:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    text-decoration: underline;
+}
