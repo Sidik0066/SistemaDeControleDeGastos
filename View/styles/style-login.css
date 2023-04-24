@@ -2,13 +2,14 @@
     width: 20rem;
     height: 20rem;
     font-size: larger;
+    color: white;
 }
 .conteudo input{
     width: 100%;
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255, 0.1);
     height: 50px;
     background: none;
     margin-bottom: 30px;
@@ -35,21 +36,43 @@
 .form p{
     margin-bottom: 5px;
     cursor: pointer;
+    margin-bottom: 2rem;
 }
 .divBtn #login:hover{
     transform: scale(1.1);
     transition: .5s;
-    border: 1px solid black;
-    text-decoration: underline;
+    border: 1px solid rgb(255, 255, 255, 0.1);
+    background-color: rgb(255, 255, 255, 0.1);
 }
 .divBtn #register-page:hover{
     transform: scale(1.1);
     transition: .5s;
-    border: 1px solid black;
-    text-decoration: underline
+    border: 1px solid rgb(255, 255, 255, 0.1);;
+    background-color: rgb(255, 255, 255, 0.1);
+    
 }
 .divBtn p:hover{
     transform: scale(1.1);
     transition: .5s;
     text-decoration: underline;
+}
+.divEmail > input
+.divSenha > input {
+    color: white;
+}
+.divBtn > button{
+    color: white;
+    border: 2px solid rgb(255, 255, 255, 0.1);
+}
+.nav-seccao {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+#nav-logo-seccao {
+    color: white;
+    font-size: 2.5rem;
 }
